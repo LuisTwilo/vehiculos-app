@@ -1,0 +1,23 @@
+<div class="bg-white p-2">
+    <a class="btn btn-primary" href="/vehicle/register" role="button">Registrar nuevo vehículo</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Tipo</th>
+                <th scope="col">Placa</th>
+                <th scope="col">Estación</th>
+                <th scope="col">Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each vehicles}}
+            <tr>
+                <td scope="col">{{ type }}</td>
+                <td scope="col">{{plate}}</td>
+                <td scope="col">{{station}}</td>
+                <td scope="col">{{_state}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
