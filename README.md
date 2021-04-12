@@ -7,3 +7,4 @@ Pasoso para correr la app:
 3. clonar el repositorio 
 4. una vez el proyecto esté listo, abrir el terminal de vs code, haciendo click en la opción terminal -> nueva terminal
 5. en el terminal correr el comando npm run dev
+6. abrir el navegador en el la url: http://localhost:8080
